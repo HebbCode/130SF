@@ -1,12 +1,12 @@
-//ÇóÁ½¸öÊýµÄ×î´óÕß Part1
+//æ±‚ä¸¤ä¸ªæ•°çš„æœ€å¤§è€… Part1
 import java.util.Scanner;
 public class SF3{
 	public static void main(String [] args){
 			Scanner input = new Scanner(System.in);
-			int A = input.nextInt();//Ê²Ã´ÀàÐÍnextºóÃæ¾Í½ÓÊ²Ã´ ×¢Òâ´óÐ¡Ð´
-			System.out.print("ÇëÊäÈëÊý×ÖB:");
-			int B = input.nextInt();//Ê²Ã´ÀàÐÍnextºóÃæ¾Í½ÓÊ²Ã´ ×¢Òâ´óÐ¡Ð´
-			System.out.print("½Ï´óÕßÎª£º");
+			int A = input.nextInt();//ä»€ä¹ˆç±»åž‹nextåŽé¢å°±æŽ¥ä»€ä¹ˆ æ³¨æ„å¤§å°å†™
+			System.out.print("è¯·è¾“å…¥æ•°å­—B:");
+			int B = input.nextInt();//ä»€ä¹ˆç±»åž‹nextåŽé¢å°±æŽ¥ä»€ä¹ˆ æ³¨æ„å¤§å°å†™
+			System.out.print("è¾ƒå¤§è€…ä¸ºï¼š");
 			if(A>B)System.out.println(A);
 			else System.out.println(B);	
 			input.close();

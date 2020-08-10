@@ -1,4 +1,4 @@
-//ÕÒ³ö³öÊı×éÖĞ×î´óµÄÊı Part1
+//æ‰¾å‡ºå‡ºæ•°ç»„ä¸­æœ€å¤§çš„æ•° Part1
 import java.util.Scanner;
 public class SF4 {
 	private static Scanner input;
@@ -6,10 +6,10 @@ public class SF4 {
 	{
 		input = new Scanner(System.in);
 		int size,i,max=0;
-		System.out.print("ÇëÊäÈëÒª±È½ÏÊıµÄÊıÁ¿£º");
-		size = input.nextInt();//ÊäÈëÊı×é³¤¶È
+		System.out.print("è¯·è¾“å…¥è¦æ¯”è¾ƒæ•°çš„æ•°é‡ï¼š");
+		size = input.nextInt();//è¾“å…¥æ•°ç»„é•¿åº¦
 		int [] array = new int [size];		
-		System.out.print("ÇëÊäÈëÒª±È½ÏµÄÊı£¨²»³¬¹ı"+size+"¸ö£©£º");
+		System.out.print("è¯·è¾“å…¥è¦æ¯”è¾ƒçš„æ•°ï¼ˆä¸è¶…è¿‡"+size+"ä¸ªï¼‰ï¼š");
 		for(i=0;i<size;i++)
 		{
 			if (input.hasNextInt()) array[i] = input.nextInt();
@@ -18,7 +18,7 @@ public class SF4 {
 			else if(max<array[i])max=array[i];
 			i++;
 		}
-		System.out.print("¸Ã´®Êı×ÖÖĞ×î´óÊıÎª "+max+"£¡");
+		System.out.print("è¯¥ä¸²æ•°å­—ä¸­æœ€å¤§æ•°ä¸º "+max+"ï¼");
 		input.close();
 	}
 }
