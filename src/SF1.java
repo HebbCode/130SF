@@ -1,4 +1,4 @@
-//Çó100ÒÔÄÚµÄÅ¼ÊıÖ®ºÍ Part1
+//æ±‚100ä»¥å†…çš„å¶æ•°ä¹‹å’Œ Part1
 public class SF1 {
 		public static void main(String[] args) {
 			int i=1,sum=0;
