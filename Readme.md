@@ -1,3 +1,9 @@
-## 使用java编写LGW_130个算法题。
+## Java practice library
 
-- Part1 SF1-SF5. (Date: August 9, 2020)<!--第一次提交-->
+- #### The first part： 130 algorithm
+
+- ##### August 9, 2020 ---- ###
+
+  SF1-4  August 9, 2020
+
+  SF5 August 11, 2020
